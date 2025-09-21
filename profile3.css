@@ -1,0 +1,72 @@
+body {
+    background-color: #00001b;
+}
+
+.telegram_profil {
+    width: 400px;
+    height: 300px;
+    background-color: #0000ff27;
+    border-radius: 20px;
+    box-shadow: 8px 4px 8px lightblue;
+    text-align: center;
+    padding: 20px;
+    margin: 30px auto;
+    font-family: sans-serif;
+}
+
+.profil_rasm {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 3px solid #ff0000;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+.ism {
+    font-size: 22px;
+    color: #eeff00;
+    margin: 10px 0 5px 0;
+}
+
+.bio {
+    font-size: 14px;
+    font-family: cursive;
+    color: #03ff18;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.tugmalar {
+    margin-top: 15px;
+}
+
+.btn {
+    padding: 12px 18px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 900;
+    color: white;
+    display: inline-block;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.kanal {
+    background: linear-gradient(#2088bd, #00aaff);
+}
+
+.kanal:hover {
+    background: linear-gradient(#0077aa, #0099dd);
+    transform: translateY(-2px);
+}
+
+.lichka {
+    background: linear-gradient(#34a853, #4cd964);
+}
+
+.lichka:hover {
+    background: linear-gradient(#2c8a43, #3ec85d);
+    transform: translateY(-2px);
+}
